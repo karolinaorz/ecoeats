@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #748e63;
+  width: fit-content;
+  position: relative;
+}
+
+header {
+  z-index: 999;
+  position: relative; /* Changed to relative positioning */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px 20px 20px;
+  transition: 0.3s ease;
+}
+
+header .brand {
+  color: #faf8ed;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+}
+
+header .navigation .navigation-items a {
+  display: inline-block; /* Change to inline-block */
+  position: relative;
+  color: #faf8ed;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover {
+  transform: scale(1.2);
+}
+
+section {
+  padding: 100px 200px;
+  position: relative; /* Changed to relative positioning */
+}
+
+.aboutus {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutus .content {
+  z-index: 888;
+  color: #faf8ed;
+  width: 70%;
+  margin-top: 50px;
+}
+
+.aboutus .content h1 {
+  font-size: 2.4em;
+  font-weight: bolder;
+
+  letter-spacing: 5px;
+  line-height: 55px;
+  margin-top: -300px;
+  font-family: "Raleway", sans-serif;
+  color: #faf8ed;
+}
+
+.sci {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sci li:hover {
+  transform: scale(1.1);
+}
+
+#fb,
+#insta,
+#tiktok {
+  margin-right: 20px;
+}
+p .aa,
+.bb,
+.cc {
+  font-size: 19px;
+}

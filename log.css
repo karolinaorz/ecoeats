@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #748e63;
+  width: fit-content;
+  position: relative;
+}
+
+header {
+  z-index: 999;
+  position: relative; /* Changed to relative positioning */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px 20px 20px;
+  transition: 0.3s ease;
+}
+
+header .brand {
+  color: #faf8ed;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+}
+
+header .navigation .navigation-items a {
+  display: inline-block; /* Change to inline-block */
+  position: relative;
+  color: #faf8ed;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover {
+  transform: scale(1.2);
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.formbox {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 36px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sci {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sci li {
+  margin: 0 10px;
+}
+
+.sci {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sci li:hover {
+  transform: scale(1.1);
+}
